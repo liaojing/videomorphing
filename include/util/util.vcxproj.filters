@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgop_gaussblur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="recfilter.cu" />
+    <CustomBuild Include="imgop_basic.cu" />
+    <CustomBuild Include="imgop_conv.cu" />
+    <CustomBuild Include="imgop_upsample.cu" />
+    <CustomBuild Include="imgop_downsample.cu" />
+    <CustomBuild Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="CMakeFiles\util.dir\$(Configuration)\util_generated_recfilter.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\util.dir\$(Configuration)\util_generated_imgop_basic.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\util.dir\$(Configuration)\util_generated_imgop_conv.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\util.dir\$(Configuration)\util_generated_imgop_upsample.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="CMakeFiles\util.dir\$(Configuration)\util_generated_imgop_downsample.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AEECE918-2831-4947-AD59-D06BD5989B33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{C672A057-01BA-4EDE-AC0F-D92EEB609AE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

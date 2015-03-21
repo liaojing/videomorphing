@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/morphing/share/gpumorph/lib/util/CMakeLists.txt
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPkgConfig.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindPackageMessage.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/CMakeParseArguments.cmake
+D:/morphing/share/gpumorph/lib/util/config.h.in
+D:/morphing/share/gpumorph/lib/util/CMakeFiles/util.dir/util_generated_recfilter.cu.obj.depend
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindCUDA/run_nvcc.cmake
+D:/morphing/share/gpumorph/lib/util/CMakeFiles/util.dir/util_generated_imgop_basic.cu.obj.depend
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindCUDA/run_nvcc.cmake
+D:/morphing/share/gpumorph/lib/util/CMakeFiles/util.dir/util_generated_imgop_conv.cu.obj.depend
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindCUDA/run_nvcc.cmake
+D:/morphing/share/gpumorph/lib/util/CMakeFiles/util.dir/util_generated_imgop_upsample.cu.obj.depend
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindCUDA/run_nvcc.cmake
+D:/morphing/share/gpumorph/lib/util/CMakeFiles/util.dir/util_generated_imgop_downsample.cu.obj.depend
+D:/Program Files (x86)/CMake/share/cmake-3.0/Modules/FindCUDA/run_nvcc.cmake
